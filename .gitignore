@@ -1,2 +1,4 @@
 platforms
 app/node_modules
+.idea
+plugins
