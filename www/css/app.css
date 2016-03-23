@@ -1,0 +1,304 @@
+* {
+    -webkit-user-select: none;
+}
+
+img {
+    max-height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
+}
+html {
+    height: 100%;
+}
+.page {
+    height: 100%;
+}
+.page_title {
+    height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 82px;
+    position: relative;
+    z-index: 1;
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-image: url("../img/cross.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+/* Beacon List */
+
+#coupon-button {
+    background-color: #000000;
+}
+
+.beaconList {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.beaconList li {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    background-color: darkgray;
+    height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+/* Detail */
+
+.detailHeader {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.detailHeader .back {
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.detailHeader h1 {
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.detailHeader .image {
+    display: block;
+    height: 231px;
+    width: 231px;
+    overflow: hidden;
+    -webkit-border-radius: 116px;
+    -moz-border-radius: 116px;
+    border-radius: 116px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.page-detail .talk {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.page-detail .talk .button {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+}
+
+.page-detail .talk .play {
+    background-image: url('../img/play.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-detail .talk .stop {
+    background-image: url('../img/stop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-detail .text {
+    padding: 15px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/* Top */
+.top {
+    background-color: #E6E6E6;
+}
+
+.top-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-menu-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#aboutButton {
+    color: #69B72D;
+    background: none;
+}
+
+.main-menu div {
+    width: 260px;
+    height: 47px;
+    color: white;
+    background-color: #69B72D;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size:18px;
+    line-height: 45px;
+    text-align: center
+}
+
+.main-menu div:last-child {
+    margin-bottom: 20px;
+}
+
+/* Status */
+.page {
+    background-color: #ffffff;
+}
+
+.status .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 90px 60px 30px;
+    line-height: 40px;
+}
+
+.status .setting {
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 52px;
+    width: 130px;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.check {
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+}
+
+.status .text {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* Cycling */
+.beaconListCycling {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background: darkgray;
+}
+
+.beaconListCycling li {
+    height: 90px;
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 95px;
+    font-size: 16px;
+}
+
+.cycling-scroll-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.cycling-playing {
+    background-image: url("../img/play.svg");
+    background-repeat: no-repeat;
+    background-position: 20px 35px;
+}
+
+/* About */
+
+.about_content {
+    background: white;
+}
+
+.licence {
+    padding: 10px;
+}
+
+.data_reset,
+.coupon-delete {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: 20px;
+    color: #69B72D;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/* Coupon */
+
+.coupon_content {
+    background: white;
+    text-align: center;
+}
+
+img.cycling-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.nobl {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 4px;
+}
