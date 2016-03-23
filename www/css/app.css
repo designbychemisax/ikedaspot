@@ -301,4 +301,5 @@ img.cycling-img {
     box-sizing: border-box;
     font-size: 14px;
     padding: 4px;
+    z-index: 1;
 }
