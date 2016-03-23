@@ -2,19 +2,20 @@
 
 Created in behalf of 「E」
 
-©「E」
+© 2016「E」All rights reserved
 
 http://kakko-e.jp/ikedaspot.html
-
-2016 Some rights reserved
 
 
 #Contact
 
-### design
 「E」
-info@kakko-e.jp
 
-### development
+design: info@kakko-e.jp
+
+development: service@chemisax.com
+
+
+© 2016 Some rights reserved
+
 design by chemisax
-service@chemisax.com
