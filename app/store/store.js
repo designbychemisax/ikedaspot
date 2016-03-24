@@ -100,6 +100,12 @@ var app = {
         store.emitChange();
     },
 
+    showStatusScreen : function () {
+        this.currentPage = "status";
+        this.currentBeacon = null;
+        store.emitChange();
+    },
+
     showStatus : function () {
         this.settings.alert = true;
         store.emitChange();
@@ -303,6 +309,9 @@ var store = assign(EventEmitter.prototype, {
                 break;
             case constants.SHOW_STATUS:
                 app.showStatus();
+                break;
+            case constants.SHOW_STATUS_SCREEN:
+                app.showStatusScreen();
                 break;
             case constants.SET_PERIPHERAL:
                 app.setPeripheral(action.payload);

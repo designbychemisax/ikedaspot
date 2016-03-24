@@ -9,7 +9,7 @@ module.exports = function() {
 
             {this.bluetooth(function () {
                 return  (
-                    <div className="nobl">
+                    <div className="nobl" onClick={this.showStatus}>
                         Bluetooth・位置情報を許可する
                     </div>
                 );

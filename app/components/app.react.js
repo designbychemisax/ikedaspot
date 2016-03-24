@@ -72,10 +72,14 @@ var app = React.createClass({
     },
 
     bluetooth : function (callback) {
-        if (this.state.settings.alert) {
+        if (this.state.settings.alert && this.state.currentPage == "top") {
             return callback.call(this);
         }
         return null;
+    },
+
+    showStatus : function (evt) {
+        actions.showStatusScreen();
     },
 
     getBeaconList : function () {

@@ -103,6 +103,15 @@ var actions = {
 
     },
 
+    showStatusScreen : function () {
+
+        dispatcher.handleViewAction({
+            actionType : constants.SHOW_STATUS_SCREEN,
+            payload : {}
+        });
+
+    },
+
     reset : function () {
 
         dispatcher.handleViewAction({
