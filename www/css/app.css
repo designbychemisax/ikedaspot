@@ -193,8 +193,13 @@ html {
 }
 
 .status {
-    background-color : black;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
 }
 
 .statusArrow {

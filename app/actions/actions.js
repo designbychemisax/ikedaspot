@@ -112,6 +112,15 @@ var actions = {
 
     },
 
+    hideStatusScreen : function () {
+
+        dispatcher.handleViewAction({
+            actionType : constants.HIDE_STATUS_SCREEN,
+            payload : {}
+        });
+
+    },
+
     reset : function () {
 
         dispatcher.handleViewAction({

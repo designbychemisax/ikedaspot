@@ -21,6 +21,7 @@ var app = {
     coupon : null,
     settings : {
         alert : false,
+        statusOverlay : false,
         peripheral : {
             ble: false,
             location : false
@@ -101,8 +102,16 @@ var app = {
     },
 
     showStatusScreen : function () {
-        this.currentPage = "status";
+        this.currentPage = "top";
         this.currentBeacon = null;
+        this.settings.statusOverlay = true;
+        store.emitChange();
+    },
+
+    hideStatusScreen : function () {
+        this.currentPage = "top";
+        this.currentBeacon = null;
+        this.settings.statusOverlay = false;
         store.emitChange();
     },
 
@@ -312,6 +321,9 @@ var store = assign(EventEmitter.prototype, {
                 break;
             case constants.SHOW_STATUS_SCREEN:
                 app.showStatusScreen();
+                break;
+            case constants.HIDE_STATUS_SCREEN:
+                app.hideStatusScreen();
                 break;
             case constants.SET_PERIPHERAL:
                 app.setPeripheral(action.payload);

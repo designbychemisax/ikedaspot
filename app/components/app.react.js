@@ -82,6 +82,10 @@ var app = React.createClass({
         actions.showStatusScreen();
     },
 
+    hideStatus : function (evt) {
+        actions.hideStatusScreen();
+    },
+
     getBeaconList : function () {
       var list = [];
       var locale = this.state.settings.language;
