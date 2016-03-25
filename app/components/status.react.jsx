@@ -10,20 +10,17 @@ module.exports = function() {
         }}>
 
             <div className="title">
-                <img src="img/status.png" width="270" height="200" />
-            </div>
-
-            <div className={"setting"+(this.props.peripheral.location ? " check" : "")}>
-                位置情報の許可
-            </div>
-
-            <div className={"setting"+(this.props.peripheral.ble ? " check" : "")}>
-                BluetoothをON
+                <img src="img/arrow.png" className="statusArrow" />
             </div>
 
             <div className="text">
-                「設定」の「プライバシー」から位置情報の許可をしてください。
+                位置情報の許可は「設定」の「プライバシー」から位置情報の許可をしてください。
             </div>
+
+            <div className="statusOkButton">
+                OK
+            </div>
+
 
         </div>
 
