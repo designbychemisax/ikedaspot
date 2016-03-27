@@ -14,10 +14,3 @@ http://kakko-e.jp/ikedaspot.html
 design: info@kakko-e.jp
 
 development: service@chemisax.com
-
-
-© 2016 Some rights reserved
-
-www.chemisax.com
-
-design by chemisax

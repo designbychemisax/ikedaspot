@@ -70,7 +70,7 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>ikedaspot needs access to your location information.</string>
+	<string>音声ガイドをご利用いただくには「位置情報の許可」をお願いします。</string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
 	<key>UILaunchImages</key>
